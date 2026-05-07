@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top of the Inbox — Cold Email Tools</title>
+  <meta name="description" content="Free tools for cold email that actually works. Score your email line by line. Find the death line. Fix it." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0a0a0a;
+      color: #e5e5e5;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 640px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .eyebrow {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #ef4444;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      font-weight: 800;
+      line-height: 1.1;
+      color: #ffffff;
+      margin-bottom: 1.25rem;
+    }
+
+    h1 span {
+      color: #ef4444;
+    }
+
+    .sub {
+      font-size: 1.1rem;
+      color: #a3a3a3;
+      line-height: 1.6;
+      margin-bottom: 2.5rem;
+    }
+
+    .cta {
+      display: inline-block;
+      background: #ef4444;
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 0.875rem 2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      transition: background 0.15s;
+      margin-bottom: 3.5rem;
+    }
+
+    .cta:hover { background: #dc2626; }
+
+    .features {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      text-align: left;
+      border-top: 1px solid #1f1f1f;
+      padding-top: 2.5rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .feature {
+      display: flex;
+      gap: 0.875rem;
+      align-items: flex-start;
+    }
+
+    .feature-icon {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 1.5rem;
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      margin-top: 2px;
+    }
+
+    .feature-text strong {
+      display: block;
+      color: #ffffff;
+      font-size: 0.95rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .feature-text span {
+      color: #737373;
+      font-size: 0.875rem;
+      line-height: 1.5;
+    }
+
+    .footer {
+      color: #404040;
+      font-size: 0.8rem;
+    }
+
+    .footer a {
+      color: #525252;
+      text-decoration: none;
+    }
+
+    .footer a:hover { color: #737373; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="eyebrow">Cold Email Tools</p>
+
+    <h1>Your email is probably<br /><span>dead by line 3.</span></h1>
+
+    <p class="sub">
+      Find out exactly where you lose the reader —<br />and fix it before you hit send.
+    </p>
+
+    <a href="/death-clock" class="cta">Run the Death Clock &rarr;</a>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">⚡</div>
+        <div class="feature-text">
+          <strong>Line-by-line attention score</strong>
+          <span>Every sentence gets a score. Watch attention rise and fall as the reader moves through your email.</span>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">💀</div>
+        <div class="feature-text">
+          <strong>Death line detection</strong>
+          <span>Pinpoints the exact line where the reader checks out. Everything after it was never read.</span>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">✍️</div>
+        <div class="feature-text">
+          <strong>AI rewrite for weak lines</strong>
+          <span>Rewrites only the lines that failed — same email, sharper execution.</span>
+        </div>
+      </div>
+    </div>
+
+    <p class="footer">
+      topoftheinbox.com &nbsp;&middot;&nbsp; More tools coming soon
+    </p>
+  </div>
+</body>
+</html>
